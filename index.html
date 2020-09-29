@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Slide Effect - team members</title>
+    <style>
+        body{
+            background-color: #222;
+            font-family: Arial;
+            margin: 0;
+        }
+        .our-team{
+            background-color: #333;
+            margin-top: 100px;
+            padding: 20px;
+        }
+        .our-team-title{
+            color: white;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        ol{
+            padding: 0;
+            list-style: none;
+        }
+        .profile{
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+        }
+        .profile:first-child{
+            margin-top: 20px;
+        }
+        .avatar{
+            padding-top: 30px;
+            width: 300px;
+            transition: 1s;
+        }
+        .avatar:hover{
+            margin-top: -240px;
+        }
+        .wrapper{
+            background-color: lightslategray;
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .name-profile{
+            transition: 1s;
+        }
+        .name-profile:hover{
+            font-size: 30px;
+            color: green;
+        }
+        .position-team{
+            transition: 1s;
+        }
+        .position-team:hover{
+            font-size: 22px;
+            color:darkred;
+        }
+    </style>
+</head>
+<body>
+    <section class="our-team">
+        <h1 class="our-team-title">Our Team</h1>
+        <ul>
+            <li class="profile">
+                <div class="wrapper">
+                    <img class="avatar" src="image/1s.png" alt="avatar">
+                    <h3>Personal Skills</h3>
+                    <ol>
+                        <li>Smart</li>
+                        <li>Fast</li>
+                        <li>Punctual</li>
+                    </ol>
+                </div>
+                <h2 class="name-profile">Andrei M.</h2>
+                <p class="position-team">Team Lead</p>
+            </li>
+            <li class="profile">
+                <div class="wrapper">
+                    <img class="avatar" src="image/2s.png" alt="avatar">
+                    <h3>Personal Skills</h3>
+                    <ol>
+                        <li>Smart</li>
+                        <li>Fast</li>
+                        <li>Punctual</li>
+                    </ol>
+                </div>
+                <h2 class="name-profile">Andrei M.</h2>
+                <p class="position-team">Team Lead</p>
+            </li>
+            <li class="profile">
+                <div class="wrapper">
+                    <img class="avatar" src="image/3s.png" alt="avatar">
+                    <h3>Personal Skills</h3>
+                    <ol>
+                        <li>Smart</li>
+                        <li>Fast</li>
+                        <li>Punctual</li>
+                    </ol>
+                </div>
+                <h2 class="name-profile">Andrei M.</h2>
+                <p class="position-team">Team Lead</p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
